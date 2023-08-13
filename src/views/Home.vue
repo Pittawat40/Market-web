@@ -444,7 +444,7 @@ export default {
         <a href="#" class="links"
           ><font-awesome-icon icon="phone" />+111-222-0000</a
         >
-        <a href="#" class="links"
+        <a href="#" class="links" id="email"
           ><font-awesome-icon icon="envelope" />jaguar@gmail.com</a
         >
         <a href="#" class="links" id="location"
@@ -1056,6 +1056,10 @@ section {
   font-size: 1.5rem;
   color: var(--light-color);
   padding: 1rem 0;
+}
+
+.footer .box-container .box #email {
+  text-transform: lowercase;
 }
 
 .footer .box-container .box #location {
