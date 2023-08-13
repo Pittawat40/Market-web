@@ -11,10 +11,10 @@ export default {
   },
   methods: {
     toggleMenu() {
-      let searchForm = document.querySelector(".search-form");
-      let shopCart = document.querySelector(".shopping-cart");
-      let loginForm = document.querySelector(".login-form");
-      let narbar = document.querySelector(".navbar");
+      const searchForm = document.querySelector(".search-form");
+      const shopCart = document.querySelector(".shopping-cart");
+      const loginForm = document.querySelector(".login-form");
+      const narbar = document.querySelector(".navbar");
 
       document.querySelector("#search-btn").onclick = () => {
         searchForm.classList.toggle("active");
@@ -45,15 +45,19 @@ export default {
       };
     },
     onScroll() {
-      let searchForm = document.querySelector(".search-form");
-      let shopCart = document.querySelector(".shopping-cart");
-      let loginForm = document.querySelector(".login-form");
-      let narbar = document.querySelector(".navbar");
+      const searchForm = document.querySelector(".search-form");
+      const shopCart = document.querySelector(".shopping-cart");
+      const loginForm = document.querySelector(".login-form");
+      const narbar = document.querySelector(".navbar");
 
       narbar.classList.remove("active");
       searchForm.classList.remove("active");
       shopCart.classList.remove("active");
       loginForm.classList.remove("active");
+
+      // const scroll = document.querySelector(".scroll-top");
+      // if (window.scrollY > 1400) scroll.classList.toggle("active");
+      // else scroll.classList.remove("active");
     },
   },
 };
@@ -412,6 +416,7 @@ export default {
           <div><font-awesome-icon icon="hashtag" /></div>
           <div><font-awesome-icon icon="cart-shopping" /></div>
           <div><font-awesome-icon icon="share-nodes" /></div>
+          <div><font-awesome-icon icon="arrow-up" /></div>
         </div>
       </div>
       <div class="box">
@@ -803,7 +808,7 @@ section {
   background-position: center;
   background-size: cover;
   padding-top: 20rem;
-  padding-bottom: 12rem;
+  padding-bottom: 10rem;
 }
 
 .home .content {
@@ -1074,14 +1079,14 @@ section {
   border: 1px solid var(--black);
 }
 
-.footer .box-container .box .icon{
+.footer .box-container .box .icon {
   display: flex;
   align-items: center;
   justify-content: center;
   float: left;
 }
 
-.footer .box-container .box .icon div{
+.footer .box-container .box .icon div {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4.5rem;
@@ -1094,7 +1099,7 @@ section {
   cursor: pointer;
 }
 
-.footer .box-container .box .icon div svg{
+.footer .box-container .box .icon div svg {
   font-size: 1.5rem;
 }
 

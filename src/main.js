@@ -25,6 +25,7 @@ import {
   faChevronRight,
   faHashtag,
   faShareNodes,
+  faArrowUp,
 } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
@@ -43,7 +44,8 @@ library.add(
   faLocationDot,
   faChevronRight,
   faHashtag,
-  faShareNodes
+  faShareNodes,
+  faArrowUp
 );
 
 const app = createApp(App).component("font-awesome-icon", FontAwesomeIcon);
