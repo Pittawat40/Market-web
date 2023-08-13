@@ -414,7 +414,6 @@ export default {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <div class="icon">
           <div><font-awesome-icon icon="hashtag" /></div>
-          <div><font-awesome-icon icon="cart-shopping" /></div>
           <div><font-awesome-icon icon="share-nodes" /></div>
           <div><font-awesome-icon icon="arrow-up" /></div>
         </div>
