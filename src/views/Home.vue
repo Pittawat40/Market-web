@@ -54,10 +54,6 @@ export default {
       searchForm.classList.remove("active");
       shopCart.classList.remove("active");
       loginForm.classList.remove("active");
-
-      // const scroll = document.querySelector(".scroll-top");
-      // if (window.scrollY > 1400) scroll.classList.toggle("active");
-      // else scroll.classList.remove("active");
     },
   },
 };
