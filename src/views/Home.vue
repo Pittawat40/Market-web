@@ -88,7 +88,7 @@ export default {
     <div class="shopping-cart">
       <div class="box">
         <font-awesome-icon icon="trash-can" />
-        <img src="src/assets/4.png" alt="" />
+        <img src="/src/assets/4.png" alt="" />
         <div class="content">
           <h3>lemon</h3>
           <span class="price">$4.00/-</span>
@@ -97,7 +97,7 @@ export default {
       </div>
       <div class="box">
         <font-awesome-icon icon="trash-can" />
-        <img src="src/assets/2.png" alt="" />
+        <img src="/src/assets/2.png" alt="" />
         <div class="content">
           <h3>orange</h3>
           <span class="price">$5.00/-</span>
@@ -106,7 +106,7 @@ export default {
       </div>
       <div class="box">
         <font-awesome-icon icon="trash-can" />
-        <img src="src/assets/3.png" alt="" />
+        <img src="/src/assets/3.png" alt="" />
         <div class="content">
           <h3>cabbage</h3>
           <span class="price">$10.00/-</span>
@@ -146,7 +146,7 @@ export default {
     <h1 class="heading">our <span>features</span></h1>
     <div class="box-container">
       <div class="box">
-        <img src="src/assets/fe-1.png" alt="" />
+        <img src="/src/assets/fe-1.png" alt="" />
         <h3>fresh and organic</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsam
@@ -155,7 +155,7 @@ export default {
         <a href="#" class="btn">read more</a>
       </div>
       <div class="box">
-        <img src="src/assets/fe-2.png" alt="" />
+        <img src="/src/assets/fe-2.png" alt="" />
         <h3>free delivery</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsam
@@ -164,7 +164,7 @@ export default {
         <a href="#" class="btn">read more</a>
       </div>
       <div class="box">
-        <img src="src/assets/fe-3.png" alt="" />
+        <img src="/src/assets/fe-3.png" alt="" />
         <h3>easy payment</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsam
@@ -182,7 +182,7 @@ export default {
     <div class="product-slider">
       <div class="warpper">
         <div class="box">
-          <img src="src/assets/1.png" alt="" />
+          <img src="/src/assets/1.png" alt="" />
           <h3>watermelon</h3>
           <div class="price">$4.99/- - 10.99/-</div>
           <div class="stars">
@@ -195,7 +195,7 @@ export default {
           <a href="#" class="btn">add to cart</a>
         </div>
         <div class="box">
-          <img src="src/assets/2.png" alt="" />
+          <img src="/src/assets/2.png" alt="" />
           <h3>orange</h3>
           <div class="price">$4.99/- - 10.99/-</div>
           <div class="stars">
@@ -208,7 +208,7 @@ export default {
           <a href="#" class="btn">add to cart</a>
         </div>
         <div class="box">
-          <img src="src/assets/3.png" alt="" />
+          <img src="/src/assets/3.png" alt="" />
           <h3>cabbage</h3>
           <div class="price">$4.99/- - 10.99/-</div>
           <div class="stars">
@@ -221,7 +221,7 @@ export default {
           <a href="#" class="btn">add to cart</a>
         </div>
         <div class="box">
-          <img src="src/assets/4.png" alt="" />
+          <img src="/src/assets/4.png" alt="" />
           <h3>lemon</h3>
           <div class="price">$4.99/- - 10.99/-</div>
           <div class="stars">
@@ -234,7 +234,7 @@ export default {
           <a href="#" class="btn">add to cart</a>
         </div>
         <div class="box">
-          <img src="src/assets/5.png" alt="" />
+          <img src="/src/assets/5.png" alt="" />
           <h3>tomato</h3>
           <div class="price">$4.99/- - 10.99/-</div>
           <div class="stars">
@@ -247,7 +247,7 @@ export default {
           <a href="#" class="btn">add to cart</a>
         </div>
         <div class="box">
-          <img src="src/assets/6.png" alt="" />
+          <img src="/src/assets/6.png" alt="" />
           <h3>broccoli</h3>
           <div class="price">$4.99/- - 10.99/-</div>
           <div class="stars">
@@ -260,7 +260,7 @@ export default {
           <a href="#" class="btn">add to cart</a>
         </div>
         <div class="box">
-          <img src="src/assets/7.png" alt="" />
+          <img src="/src/assets/7.png" alt="" />
           <h3>avocado</h3>
           <div class="price">$4.99/- - 10.99/-</div>
           <div class="stars">
@@ -273,7 +273,7 @@ export default {
           <a href="#" class="btn">add to cart</a>
         </div>
         <div class="box">
-          <img src="src/assets/8.png" alt="" />
+          <img src="/src/assets/8.png" alt="" />
           <h3>grape</h3>
           <div class="price">$4.99/- - 10.99/-</div>
           <div class="stars">
@@ -295,7 +295,7 @@ export default {
     <h1 class="heading">customer's <span>review</span></h1>
     <div class="box-container">
       <div class="box">
-        <img src="src/assets/man.png" alt="" />
+        <img src="/src/assets/man.png" alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           distinctio aspernatur possimus cupiditate doloremque iste neque
@@ -311,7 +311,7 @@ export default {
         </div>
       </div>
       <div class="box">
-        <img src="src/assets/girl.png" alt="" />
+        <img src="/src/assets/girl.png" alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           distinctio aspernatur possimus cupiditate doloremque iste neque
@@ -327,7 +327,7 @@ export default {
         </div>
       </div>
       <div class="box">
-        <img src="src/assets/gamer.png" alt="" />
+        <img src="/src/assets/gamer.png" alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           distinctio aspernatur possimus cupiditate doloremque iste neque
@@ -351,7 +351,7 @@ export default {
     <h1 class="heading">our <span>blogs</span></h1>
     <div class="box-container">
       <div class="box">
-        <img src="src/assets/blog-1.jpg" alt="" />
+        <img src="/src/assets/blog-1.jpg" alt="" />
         <div class="content">
           <div class="icons">
             <a href="#"><font-awesome-icon icon="user" />by user</a>
@@ -367,7 +367,7 @@ export default {
         </div>
       </div>
       <div class="box">
-        <img src="src/assets/blog-2.jpg" alt="" />
+        <img src="/src/assets/blog-2.jpg" alt="" />
         <div class="content">
           <div class="icons">
             <a href="#"><font-awesome-icon icon="user" />by user</a>
@@ -383,7 +383,7 @@ export default {
         </div>
       </div>
       <div class="box">
-        <img src="src/assets/blog-3.jpg" alt="" />
+        <img src="/src/assets/blog-3.jpg" alt="" />
         <div class="content">
           <div class="icons">
             <a href="#"><font-awesome-icon icon="user" />by user</a>
@@ -800,7 +800,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("src/assets/bg.jpg") no-repeat;
+  background: url("/src/assets/bg.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 20rem;
@@ -917,6 +917,7 @@ section {
   outline-offset: -1rem;
   outline: var(--outline);
   box-shadow: var(--box-shadow);
+  cursor: pointer;
 }
 
 .products .product-slider .box:hover {
