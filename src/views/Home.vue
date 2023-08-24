@@ -299,7 +299,7 @@ export default {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           distinctio aspernatur possimus cupiditate doloremque iste neque
-          ratione ea ad porro.
+          ratione ea ad porroa.
         </p>
         <h3>John Doe</h3>
         <div class="stars">
