@@ -1197,5 +1197,9 @@ section {
   .heading span {
     font-size: 2rem;
   }
+
+  .products .product-slider .warpper {
+    grid-template-columns: auto auto;
+  }
 }
 </style>
